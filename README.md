@@ -14,13 +14,13 @@ Nothing big, just my first try at creating a Vue 3 app.
 
 ## Live Demo
 
-\[First Vue App - Live Demo](https://najya-mn.github.io/scrimba-first-vue-app/)
+[First Vue App - Live Demo](https://najya-mn.github.io/scrimba-first-vue-app/)
 
 
 
 ## Screenshot
 
-![First Vue App - Live Demo](C:\\xampp\\htdocs\\my-projects\\For Learning\\Scrimba\\scrimba-first-vue-app\\media\\first-vue-app.png)
+![First Vue App - Live Demo](./screenshots/first-vue-app.png)
 
 
 
