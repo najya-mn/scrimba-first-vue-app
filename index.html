@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Vue.js Basics</title>
+
+    <!-- importing vue 3 cdn -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <!-- body of the app -->
+    <div id="app">
+        <span>{{emoji}}</span>
+        <h1>{{title}}</h1>
+        <p>{{textBody}}</p>
+        <a href="https://www.youtube.com/watch?v=kqeXUsmg7qs&pp=ygUPamFzaWFoIHN1cmZzIHVw" target="_blank">{{btnText}}</a>
+    </div>
+
+    <!-- where the reactivity comes from -->
+    <script>
+        const {createApp, ref} = Vue
+
+        createApp({
+            setup(){
+                // rective data refs
+                const emoji = ref("💘")
+                const title = ref("Oh no")
+                const textBody = ref("We're done here, bois")
+                const btnText = ref("Lessgeddit")
+
+                return {emoji, title, textBody, btnText}
+            }
+        }).mount("#app")
+    </script>
+</body>
+</html>
